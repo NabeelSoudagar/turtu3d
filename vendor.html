@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partners | Vendors - TURTU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <span class="loader-text">TURTU</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <div class="canvas-container">
+        <canvas id="hero-canvas"></canvas>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none;"><div class="logo-icon"></div></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="index.html#features" class="nav-item">Features</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="active">Careers <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="interns.html">Fullstack Interns</a>
+                    <a href="rider.html">Driving Riders</a>
+                    <a href="vendor.html">Vendors</a>
+                </div>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.turtu.customer" class="cta-btn" target="_blank">Get the App</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="career-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Empower Your <span class="gradient-text">Store</span></h1>
+                    <p class="hero-subtitle">Connect with thousands of local customers. Bring your store online with Turtu and grow your sales 2x.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="career-details">
+            <div class="container">
+                <div class="about-card" style="text-align: center;">
+                    <h2 class="section-title">Partner with <span class="gradient-text">Confidence</span></h2>
+                    
+                    <div class="info-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px; text-align: left;">
+                        <div class="feature-card">
+                            <h3>📈 Sales Growth</h3>
+                            <p>Leverage our platform to reach customers who can't visit your shop physically.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🚀 Instant Logistics</h3>
+                            <p>No need to hire your own delivery boys. Our rider fleet is ready for you.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>📊 Merchant Dashboard</h3>
+                            <p>Get detailed insights on your top-selling products and customer behavior.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>💳 Secure Payments</h3>
+                            <p>Daily settlements and transparent accounting for all your online sales.</p>
+                        </div>
+                    </div>
+
+                    <div class="cta-box" style="padding: 60px; border-top: 1px solid var(--glass-border);">
+                        <h2 style="margin-bottom: 20px;">Join the <span class="gradient-text">Revolution</span></h2>
+                        <p style="margin-bottom: 40px; opacity: 0.8;">Setup your store in less than 24 hours.</p>
+                        <div class="app-buttons" style="display: flex; justify-content: center; gap: 20px;">
+                            <a href="https://play.google.com/store/apps/details?id=com.turtu.vendor" class="app-btn" style="text-decoration: none;" target="_blank">
+                                <i class="fab fa-google-play"></i> Vendor App
+                            </a>
+                            <a href="mailto:help.turtu@gmail.com" class="app-btn" style="text-decoration: none;">
+                                <i class="fas fa-headset"></i> Contact Sales
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 TURTU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
